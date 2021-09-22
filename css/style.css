@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Stick+No+Bills:wght@400;700;800&display=swap&subset=cyrillic-ext');
+
+@font-face {
+    font-family: 'Creolia';
+    src: url("../fonts/Creolia.woff2") format('woff2');
+    src: url("../fonts/Creolia.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*ul,*/
+/*ol,*/
+/*li {*/
+/*    list-style: none;*/
+/*}*/
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+li{
+    font-style: italic;
+    font-family: 'Creolia', sans-serif;
+}
+
+a{
+    font-style: oblique;
+}
+
+p {
+    text-indent: 50px;
+}
+
+nav {
+text-align: right;
+}
+
+
+.title {
+    text-shadow: 1px 0 10px #FC0;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Grechen Fuemen', cursive;
+}
+
+.subtitle {
+    text-shadow: 3px 1px 6px rgba(16, 215, 0, 0.45);
+    font-weight: 600;
+    /*semibold*/
+
+}
+
+
